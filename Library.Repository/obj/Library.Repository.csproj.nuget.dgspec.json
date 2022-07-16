@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "L:\\roko_levan_burchuladze\\Library\\Library.Repository\\Library.Repository.csproj": {}
+  },
+  "projects": {
+    "L:\\roko_levan_burchuladze\\Library\\Library.Dto\\Library.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\roko_levan_burchuladze\\Library\\Library.Dto\\Library.Dto.csproj",
+        "projectName": "Library.Dto",
+        "projectPath": "L:\\roko_levan_burchuladze\\Library\\Library.Dto\\Library.Dto.csproj",
+        "packagesPath": "C:\\Users\\ROKO000000005\\.nuget\\packages\\",
+        "outputPath": "L:\\roko_levan_burchuladze\\Library\\Library.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROKO000000005\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\roko_levan_burchuladze\\Library\\Library.Entities\\Library.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\roko_levan_burchuladze\\Library\\Library.Entities\\Library.Entities.csproj",
+        "projectName": "Library.Entities",
+        "projectPath": "L:\\roko_levan_burchuladze\\Library\\Library.Entities\\Library.Entities.csproj",
+        "packagesPath": "C:\\Users\\ROKO000000005\\.nuget\\packages\\",
+        "outputPath": "L:\\roko_levan_burchuladze\\Library\\Library.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROKO000000005\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\roko_levan_burchuladze\\Library\\Library.Interfaces.Repository\\Library.Interfaces.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\roko_levan_burchuladze\\Library\\Library.Interfaces.Repository\\Library.Interfaces.Repository.csproj",
+        "projectName": "Library.Interfaces.Repository",
+        "projectPath": "L:\\roko_levan_burchuladze\\Library\\Library.Interfaces.Repository\\Library.Interfaces.Repository.csproj",
+        "packagesPath": "C:\\Users\\ROKO000000005\\.nuget\\packages\\",
+        "outputPath": "L:\\roko_levan_burchuladze\\Library\\Library.Interfaces.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROKO000000005\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "L:\\roko_levan_burchuladze\\Library\\Library.Dto\\Library.Dto.csproj": {
+                "projectPath": "L:\\roko_levan_burchuladze\\Library\\Library.Dto\\Library.Dto.csproj"
+              },
+              "L:\\roko_levan_burchuladze\\Library\\Library.Entities\\Library.Entities.csproj": {
+                "projectPath": "L:\\roko_levan_burchuladze\\Library\\Library.Entities\\Library.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\roko_levan_burchuladze\\Library\\Library.Repository\\Library.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\roko_levan_burchuladze\\Library\\Library.Repository\\Library.Repository.csproj",
+        "projectName": "Library.Repository",
+        "projectPath": "L:\\roko_levan_burchuladze\\Library\\Library.Repository\\Library.Repository.csproj",
+        "packagesPath": "C:\\Users\\ROKO000000005\\.nuget\\packages\\",
+        "outputPath": "L:\\roko_levan_burchuladze\\Library\\Library.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROKO000000005\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "L:\\roko_levan_burchuladze\\Library\\Library.Interfaces.Repository\\Library.Interfaces.Repository.csproj": {
+                "projectPath": "L:\\roko_levan_burchuladze\\Library\\Library.Interfaces.Repository\\Library.Interfaces.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
